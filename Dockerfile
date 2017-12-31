@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6-management-alpine
+FROM rabbitmq:3.7.2-management-alpine
 
 RUN apk add --update curl && rm -rf /var/cache/apk/*
 
